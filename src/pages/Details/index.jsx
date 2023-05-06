@@ -7,6 +7,7 @@ import { TbClockHour3 } from 'react-icons/tb'
 
 import { Header } from '../../components/Header'
 import { Rating } from '../../components/Rating'
+import { Section } from '../../components/Section'
 import { Tag } from '../../components/Tag'
 
 export function Details() {
@@ -19,10 +20,9 @@ export function Details() {
             <RxArrowLeft />
             Voltar
           </Link>
-          <div className="title">
-            <h1>Interestellar</h1>
+          <Section title="Interestellar">
             <Rating />
-          </div>
+          </Section>
 
           <div className="user">
             <img

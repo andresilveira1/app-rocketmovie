@@ -8,7 +8,8 @@ import { Header } from '../../components/Header'
 import { Input } from '../../components/Input'
 import { Textarea } from '../../components/Textarea'
 import { Button } from '../../components/Button'
-import { MarkItem } from '../../components/MarkItem'
+import { CreateTag } from '../../components/CreateTag'
+import { Section } from '../../components/Section'
 
 export function New() {
   return (
@@ -21,7 +22,7 @@ export function New() {
               <RxArrowLeft />
               Voltar
             </Link>
-            <h1>Novo filme</h1>
+            <Section title="Novo filme" />
           </header>
           <div className="input">
             <Input type="text" placeholder="Título" />
@@ -38,8 +39,8 @@ export function New() {
           <h2>Marcadores</h2>
 
           <div className="marker">
-            <MarkItem value="React" />
-            <MarkItem isNew placeholder="Novo marcador" />
+            <CreateTag value="React" />
+            <CreateTag isNew placeholder="Novo marcador" />
           </div>
           <div className="button">
             <Button title="Excluir filme" />

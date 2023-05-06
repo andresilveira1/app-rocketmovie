@@ -34,25 +34,16 @@ export const Content = styled.div`
     color: ${({ theme }) => theme.COLORS.PINK};
   }
 
-  .title {
+  > section {
     display: flex;
     align-items: baseline;
-    gap: 2rem;
+    gap: 1.9rem;
 
     margin-bottom: 2.4rem;
 
-    h1 {
-      font-size: 3.6rem;
-      font-weight: 500;
-      color: ${({ theme }) => theme.COLORS.WHITE_100};
-    }
-
-    span {
-      display: flex;
-
-      svg {
-        font-size: 2rem;
-      }
+    svg {
+      margin-right: 1rem;
+      font-size: 2rem;
     }
   }
 

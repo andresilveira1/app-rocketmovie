@@ -58,7 +58,6 @@ export const Container = styled(Link)`
 
     span {
       padding: 5px 1.6rem;
-      font-size: 1.2rem;
       margin-right: 8px;
     }
   }

@@ -5,6 +5,6 @@ export const Container = styled.span`
   border-radius: 0.8rem;
 
   font-family: 'Roboto', sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: ${({ theme }) => theme.COLORS.GRAY_100};
 `

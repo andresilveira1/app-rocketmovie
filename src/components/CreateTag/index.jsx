@@ -2,7 +2,7 @@ import { Container } from './styles'
 
 import { FiPlus, FiX } from 'react-icons/fi'
 
-export function MarkItem({ isNew, value, onClick, ...rest }) {
+export function CreateTag({ isNew, value, onClick, ...rest }) {
   return (
     <Container isNew={isNew}>
       <input type="text" value={value} readOnly={!isNew} {...rest} />
