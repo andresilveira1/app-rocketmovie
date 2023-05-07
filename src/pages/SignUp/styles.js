@@ -43,19 +43,19 @@ export const Form = styled.form`
   }
 
   > a {
-    text-align: center;
-
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 8px;
 
+    text-align: center;
     color: ${({ theme }) => theme.COLORS.PINK};
   }
 `
 
 export const Background = styled.div`
   flex: 1;
+
   background: url(${backgroundImg}) no-repeat center center;
   background-size: cover;
 `

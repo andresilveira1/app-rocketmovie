@@ -15,8 +15,9 @@ export const Form = styled.form`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
   align-items: start;
+
+  text-align: center;
 
   > h1 {
     font-size: 4.8rem;
@@ -54,6 +55,7 @@ export const Form = styled.form`
 
 export const Background = styled.div`
   flex: 1;
+
   background: url(${backgroundImg}) no-repeat center center;
   background-size: cover;
 `
